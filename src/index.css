@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #a37b7b;
   color: #fff;
   overflow-x: hidden;
 }
@@ -116,7 +116,6 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
   color: #fff;
   border: none;
   font-weight: bold;
@@ -127,15 +126,15 @@ button {
   font-size: 1.2rem;
 }
 
-button:hover {
-  background-color: #121212;
+.btn-black{
+  background-color: #000;
 }
 
-button:focus {
-  background-color: #222;
+.btn-blue{
+  background-color: blue;
 }
 
-button:disabled {
-  opacity: 0.8;
-  pointer-events: none;
+.btn-white{
+  background-color: rgb(255, 255, 255);
+  color: #000;
 }
